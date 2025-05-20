@@ -25,20 +25,22 @@ This project is a simple two-player multiplayer game implemented in C using both
 
 **Compile the server and client:**
 
-Edit
 gcc tcp_server.c -o server
+
 gcc tcp_client.c -o client
+
 Run the server (in one terminal):
 
 ./server
+
 Run the clients (in two separate terminals):
 
 
 ./client
 
-📡 UDP Version
+**📡 UDP Version
 
-Compile the server and client:
+**Compile the server and client:
 
 
 gcc udp_server.c -o server
